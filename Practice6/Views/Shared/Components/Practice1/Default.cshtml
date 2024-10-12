@@ -1,0 +1,11 @@
+﻿
+
+<h3>Top-10 users by record:</h3>
+<ul>
+	@{
+		foreach(var user in ViewBag.Users)
+		{
+			<li>@user.Name @user.Age @user.Record</li>
+		}
+	}
+</ul>
